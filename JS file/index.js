@@ -101,3 +101,11 @@ for (var i = 0; i < finances.length; i++) {
 console.log(
   "Net total amount of Profit/Losses over the entire period: $" + sum
 );
+
+
+var change=0;
+var changes = 0;
+var greatest_increase = 0;
+var greatest_decrease = 0;
+var month_profit;
+var month_loss;
