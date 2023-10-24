@@ -49,7 +49,7 @@ You can view a live demo of the application [here](https://kiranpandranki17.gith
 
 ## Author
 
-[Your Name](https://github.com/KiranPandranki17/Console-Finances-Bootcamp)
+[Bhoga S Kiran Pandranki](https://github.com/KiranPandranki17/Console-Finances-Bootcamp)
 
 ## License
 
