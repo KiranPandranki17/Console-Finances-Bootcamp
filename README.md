@@ -22,7 +22,7 @@ To run the application locally, follow these steps:
    ```sh
    cd Console-Finances
    ```
-3. Open the `index.js` file and navigate to Devdev tools in your browser.
+3. Open the `index.js` file and navigate to Dev tools in your browser.
 
 
 ## Financial Analysis Results
