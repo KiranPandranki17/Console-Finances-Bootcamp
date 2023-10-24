@@ -86,3 +86,18 @@ var finances = [
   ['Jan-2017', 138230],
   ['Feb-2017', 671099],
 ];
+
+
+console.log("Financial Analysis")
+
+console.log("----------------")
+
+console.log("Total Number of Months: " + finances.length);
+
+var sum = 0;
+for (var i = 0; i < finances.length; i++) {
+  sum += finances[i][1];
+}
+console.log(
+  "Net total amount of Profit/Losses over the entire period: $" + sum
+);
