@@ -87,9 +87,9 @@ var finances = [
   ["Feb-2017", 671099],
 ];
 
-console.log("Financial Analysis");
+console.log("Financial Analysis")
 
-console.log("----------------");
+console.log("----------------")
 
 console.log("Total Number of Months: " + finances.length);
 
@@ -101,13 +101,13 @@ console.log(
   "Net total amount of Profit/Losses over the entire period: $" + sum
 );
 
-var change = 0;
+
+var change=0;
 var changes = 0;
 var greatest_increase = 0;
 var greatest_decrease = 0;
 var month_profit;
 var month_loss;
-
 for (var i = 1; i < finances.length; i++) {
   change = finances[i][1] - finances[i - 1][1];
   changes += finances[i][1] - finances[i - 1][1];
@@ -127,6 +127,7 @@ console.log(
   "Average of the changes in Profit/Losses over the entire period: $" +
     (changes / (finances.length - 1)).toFixed(2)
 );
+
 
 console.log(
   "Greatest Increase in Profits/Losses: " +
